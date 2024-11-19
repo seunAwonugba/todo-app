@@ -1,0 +1,34 @@
+# To-Do List API
+
+A RESTful API for managing a basic "To-Do List" application. This API is built with **Express.js**, **Sequelize**, **TypeScript**, and **PostgreSQL**, and it provides CRUD operations for managing to-do items.
+
+---
+
+## Table of Contents
+
+1. [Setup and Run the API](#setup-and-run-the-api)
+2. [API Endpoints](#api-endpoints)
+
+---
+
+## Setup and Run the API
+
+### Prerequisites
+
+-   **Node.js** (v16 or higher)
+-   **npm** or **yarn**
+-   **PostgreSQL** database installed and running
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone <repository_url>
+    cd todo-list-api
+    ```
+
+1. Clone the repository:
+    ```bash
+    git clone <repository_url>
+    cd todo-list-api
+    ```
