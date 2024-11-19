@@ -72,35 +72,38 @@ A RESTful API for managing a basic "To-Do List" application. This API is built w
 
 1.  Create a New To-Do Item (POST)
 
-            ```bash
-            http://localhost:{{PORT}}
-            ```
+    ```bash
+    http://localhost:{{PORT}}
+
 
     BODY
     {
     "title": "Buy groceries",
     "completed": true
     }
+    ```
 
 2.  Retrieve All To-Do Items (GET)
 
-            ```bash
-            http://localhost:{{PORT}}
-            ```
+    ```bash
+     http://localhost:{{PORT}}
+    ```
 
 3.  Get a To-Do Item (GET)
 
-            ```bash
-            http://localhost:{{PORT}}/:id
-            ```
+    ```bash
+    http://localhost:{{PORT}}/:id
+    ```
 
 4.  Update a To-Do Item (PATCH)
 
-            ```bash
-            http://localhost:{{PORT}}/:id
+    ```bash
+    http://localhost:{{PORT}}/:id
+
+    ```
 
 5.  Delete a To-Do Item (DELETE)
 
-            ```bash
-            http://localhost:{{PORT}}/:id
-            ```
+    ```bash
+    http://localhost:{{PORT}}/:id
+    ```
