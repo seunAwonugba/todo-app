@@ -29,17 +29,55 @@ A RESTful API for managing a basic "To-Do List" application. This API is built w
     ```
 
 2. Install dependencies:
+
     ```bash
     npm install
     ```
+
 3. Set up the environment variables:
-   `bash
-    PORT=
-    HOST=
-    DB_HOST_DEV=
-    DB_PORT=
-    DB_USERNAME=
-    DB_PASSWORD=
-    DEV_DB=
-    DB_DIALECT=
-    `
+
+    ```bash
+     PORT=
+     HOST=
+     DB_HOST_DEV=
+     DB_PORT=
+     DB_USERNAME=
+     DB_PASSWORD=
+     DEV_DB=
+     DB_DIALECT=
+    ```
+
+4. Run database migrations:
+
+    ```bash
+     npm run db:migrate
+
+    ```
+
+5. Start the server:
+
+    ```bash
+     npm run dev
+
+    ```
+
+6. Access the API at:
+
+    ```bash
+     http://localhost:{{PORT}}
+
+    ```
+
+## API Endpoints
+
+1.  Create a New To-Do Item
+
+        ```bash
+        POST  http://localhost:{{PORT}}
+
+         {
+            "title": "Buy groceries",
+            "completed": true
+        }
+
+        ```
