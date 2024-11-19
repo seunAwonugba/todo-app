@@ -22,13 +22,13 @@ A RESTful API for managing a basic "To-Do List" application. This API is built w
 ### Installation
 
 1. Clone the repository:
+
     ```bash
-    git clone <repository_url>
-    cd todo-list-api
+    git clone https://github.com/seunAwonugba/todo-app.git
+    cd todo-list
     ```
 
-1. Clone the repository:
+2. Install dependencies:
     ```bash
-    git clone <repository_url>
-    cd todo-list-api
+    npm install
     ```
