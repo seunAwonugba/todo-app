@@ -32,3 +32,14 @@ A RESTful API for managing a basic "To-Do List" application. This API is built w
     ```bash
     npm install
     ```
+3. Set up the environment variables:
+   `bash
+    PORT=
+    HOST=
+    DB_HOST_DEV=
+    DB_PORT=
+    DB_USERNAME=
+    DB_PASSWORD=
+    DEV_DB=
+    DB_DIALECT=
+    `
