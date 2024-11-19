@@ -79,7 +79,7 @@ A RESTful API for managing a basic "To-Do List" application. This API is built w
     BODY
     {
     "title": "Buy groceries",
-    "completed": true
+    "status": "completed"
     }
     ```
 
